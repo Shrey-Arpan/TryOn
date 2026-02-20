@@ -138,7 +138,7 @@ export default function App() {
       <aside className="w-80 border-r border-border flex flex-col bg-card/30">
         <div className="p-6 border-bottom border-border">
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-2xl font-serif italic font-bold tracking-tight text-white">Lumina</h1>
+            <h1 className="text-2xl font-serif italic font-bold tracking-tight text-white">TryOwn</h1>
             <button 
               onClick={() => {
                 setIsEditing(true);
@@ -261,7 +261,7 @@ export default function App() {
               <div className="w-24 h-24 bg-accent/10 rounded-full flex items-center justify-center mb-6 border border-accent/20">
                 <BookOpen size={40} className="text-accent" />
               </div>
-              <h2 className="text-2xl font-serif italic mb-2">Welcome to Lumina</h2>
+              <h2 className="text-2xl font-serif italic mb-2">Welcome to TryOwn</h2>
               <p className="text-gray-500 max-w-md">Select a note to view insights or create a new one to start capturing your thoughts.</p>
             </div>
           )}
@@ -287,7 +287,7 @@ export default function App() {
               <div className="p-4 border-b border-border bg-white/5 flex items-center justify-between">
                 <div className="flex items-center space-x-2">
                   <Sparkles size={18} className="text-accent" />
-                  <span className="font-medium">Lumina AI</span>
+                  <span className="font-medium">TryOwn AI</span>
                 </div>
                 <div className="text-[10px] uppercase tracking-widest opacity-50 font-mono">Knowledge Assistant</div>
               </div>
@@ -321,7 +321,7 @@ export default function App() {
                 <div className="relative">
                   <input 
                     type="text" 
-                    placeholder="Ask Lumina..." 
+                    placeholder="Ask TryOwn..." 
                     className="w-full bg-white/5 border border-border rounded-xl py-2 pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-accent/50 transition-all text-sm"
                     value={chatInput}
                     onChange={(e) => setChatInput(e.target.value)}

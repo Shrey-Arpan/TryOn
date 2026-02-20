@@ -34,7 +34,7 @@ export async function chatWithAI(message: string, context: string): Promise<stri
     
     User message: ${message}`,
     config: {
-      systemInstruction: "You are Lumina, an intelligent assistant that helps users manage their knowledge. Use the provided context from their notes to answer questions accurately and insightfully.",
+      systemInstruction: "You are TryOwn, an intelligent assistant that helps users manage their knowledge. Use the provided context from their notes to answer questions accurately and insightfully.",
     },
   });
 

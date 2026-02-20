@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const db = new Database("lumina.db");
+const db = new Database("tryown.db");
 
 // Initialize database
 db.exec(`
